@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos/estilos2.css">
+</head>
+<body>
+    <h1>Formuralio de informacion</h1>
+    <form action="fotmulario.php" method="post">
+        <fieldset>
+            <legend>Sus Datos</legend>
+            <p><label for="nombre y apellidos"> Nombre y Apellidos:</label>
+            <input maxlength="50" type="text" name="nombre y apellidos" value=""><br></p>
+            <p><label for="contraseña">Contraseña</label>
+            <input maxlength="8" type="password" name="contraseña" value=""><br>
+            </p>
+            <p><label for="usuario">Usuario</label>
+            <input type="text" name="usuario" value="anonimo" disabled>
+            </p>
+            <p><label for="nivel">Nivel</label></p>
+            <p><input type="radio" name="nivel" value="Profesional"> Profesional</p>
+            <p><input type="radio" name="nivel" value="Avanzado" checked>Avanzado</p>
+            <p><input type="radio" name="nivel" value="Principiante">Principiante</p>
+        </fieldset>
+        <p>Nacionalidad: <select name="nacionalidad" id="nacionalidad">
+            <option value="esp">Español</option>
+            <option value="ue">Union Europea</option>
+            <option value="noue">Fuera de la UE</option>
+        </select>
+        </p>
+        <p>Descripcion:<textarea name="descripcion" id="descripcion" ></textarea></p>
+        <p><input type="checkbox" name="novedades" checked>Deseo recibir informacion de novedades y ofertas</p>
+        <p><input type="checkbox" name="leido">Declaro haber leido y acepto las condiciones del programa y la normatica sobre proteccion de Datos</p>
+        <p>Adjuntar foto: <input type="file" name="foto">seleccional archivo</p>
+        <p><input type="submit" name="enviar" value="enviar"><input type="reset" name="resetar" value="resetar"></p>
+    </form>
+    <a href="index.html">Volver</a>
+</body>
+</html>

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&display=swap');
+h1{font-family: Swap;
+font-size: 50px;
+color: #D2691E ;
+text-align: center;}
+h2{font-family: Caveat;
+font-size: 30px;
+color: #00008B;}
+h3{font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+color: #008B8B;}
+
+p{font-family: Arial, Helvetica, sans-serif;}
+li{font-family: Arial, Helvetica, sans-serif;}
+a:link { text-decoration: none;}
+a:visited{color: gray;font-weight: bold;}
+a:hover{color: red;font-weight: bold;}
+a:active{color: green;}
+table, th, td{width: 33%;margin: auto;border: 1px solid brown;;border-collapse: collapse;background-color: antiquewhite; }
+body{background-image: url("../Imagenes/Herramientas.jpeg");}
